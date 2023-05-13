@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="left">
+        <h1 class="left__title">Your Result</h1>
+        <div class="score">
+          <p class="score__result">
+            <span class="score__result--big">76</span>of 100
+          </p>
+        </div>
+        <div class="left__text">
+          <h2 class="left__subtitle">Great</h2>
+          <p class="left__description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+      </div>
+      <div class="right">
+        <h2 class="right__title">Summary</h2>
+        <div class="right__box">
+          <div class="right__box-icon">
+            <img
+              class="right__box-image"
+              src="/assets/images/icon-reaction.svg"
+              alt=""
+            />
+          </div>
+          <h3 class="right__box-title">Reaction</h3>
+          <p class="right__box-score">
+            80<span class="right__box-score--bright"> / 100</span>
+          </p>
+        </div>
+        <div class="right__box">
+          <div class="right__box-icon">
+            <img src="/assets/images/icon-memory.svg" alt="" />
+          </div>
+          <h3 class="right__box-title">Memory</h3>
+          <p class="right__box-score">
+            92<span class="right__box-score--bright"> / 100</span>
+          </p>
+        </div>
+        <div class="right__box">
+          <div class="right__box-icon">
+            <img src="/assets/images/icon-verbal.svg" alt="" />
+          </div>
+          <h3 class="right__box-title">Verbal</h3>
+          <p class="right__box-score">
+            61<span class="right__box-score--bright"> / 100</span>
+          </p>
+        </div>
+        <div class="right__box">
+          <div class="right__box-icon">
+            <img src="/assets/images/icon-visual.svg" alt="" />
+          </div>
+          <h3 class="right__box-title">Visual</h3>
+          <p class="right__box-score">
+            72<span class="right__box-score--bright"> / 100</span>
+          </p>
+        </div>
+
+        <button class="right__btn" type="button">Continue</button>
+      </div>
+    </div>
+  </body>
+</html>
